@@ -1,4 +1,4 @@
-# Caso 03: Distritos de Innovación (iD3 & CIDLA) y Plataforma Janus
+# Caso 03: Distritos de Innovación y Plataforma Janus
 
 * **Rol:** Product Manager & Estratega de Ecosistemas de Innovación
 * **Período:** Enero 2022 – Mayo 2026
@@ -22,19 +22,19 @@ A pesar de concentrar el 26% de las solicitudes de patentes del país y una sól
 
 ```mermaid
 graph TD
-    subgraph Ecosistema Territorial de Innovación
-        ID3[<b>Distrito de Innovación Biobío (iD3)</b><br>6,5 Ha Costanera Hualpén · Hub Continental]
-        CIDLA[<b>Centro de Innovación y Desarrollo Los Ángeles (CIDLA)</b><br>Alianza UdeC + CMPC · Tecnologías de Madera & Datos]
+    subgraph Ecosistema["Ecosistema Territorial de Innovación"]
+        ID3["Distrito de Innovación Biobío (iD3)<br>6,5 Ha Costanera Hualpén · Hub Continental"]
+        CIDLA["Centro de Innovación y Desarrollo Los Ángeles (CIDLA)<br>Alianza UdeC + CMPC · Tecnologías de Madera & Datos"]
     end
     
-    subgraph Capa Habilitante Tecnológica
-        C4i[Centro Industria 4.0: Sensorización y Robótica]
-        CDIA[Centro de Datos e Inteligencia Artificial: Modelos Predictivos]
+    subgraph Habilitante["Capa Habilitante Tecnológica"]
+        C4i["Centro Industria 4.0: Sensorización y Robótica"]
+        CDIA["Centro de Datos e Inteligencia Artificial: Modelos Predictivos"]
     end
     
-    subgraph Plataforma Digital & Entrega
-        Janus[<b>Plataforma Janus</b><br>Gestión de Portafolio de Activos, TRLs y Licenciamiento]
-        Market[Spin-Offs, EBCTs y Licencias Corporativas]
+    subgraph Plataforma["Plataforma Digital & Entrega"]
+        Janus["Plataforma Janus<br>Gestión de Portafolio de Activos, TRLs y Licenciamiento"]
+        Market["Spin-Offs, EBCTs y Licencias Corporativas"]
     end
 
     ID3 --> C4i

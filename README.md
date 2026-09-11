@@ -29,10 +29,10 @@ Mi propuesta de valor une tres pilares:
 
 ```mermaid
 graph TD
-    Portfolio[Portafolio de Producto] --> C1[1. Nauvo: 0-to-1 & Motor de IA]
-    Portfolio --> C2[2. Gauss Control: B2B SaaS & Escala]
-    Portfolio --> C3[3. Janus / UdeC: DeepTech Transfer]
-    Portfolio --> C4[4. SVTI: Operaciones Críticas]
+    Portfolio["Portafolio de Producto"] --> C1["1. Nauvo: 0-to-1 & Motor de IA"]
+    Portfolio --> C2["2. Gauss Control: B2B SaaS & Escala"]
+    Portfolio --> C3["3. Distritos de Innovación y Plataforma Janus"]
+    Portfolio --> C4["4. SVTI: Operaciones Críticas"]
 ```
 
 ### [1. Nauvo — Motor de Inferencia para Evaluación de Riesgo en Startups](./cases/01-nauvo-risk-engine.md)
@@ -47,10 +47,10 @@ graph TD
 * **Resumen:** Liderazgo funcional de célula ágil (Tech Lead, BA, Devs). Priorización de roadmap basado en causales de accidentabilidad, alcanzando un flujo de 16.000 usuarios, +2.000 descargas y aumentando en un 30% la eficiencia de soporte operacional.
 * **[Ver Caso Completo ➔](./cases/02-gauss-control-monitoring.md)**
 
-### [3. Janus — Transferencia Tecnológica y Spin-Offs (VRID UdeC)](./cases/03-janus-tech-transfer.md)
-* **Rol:** Product Manager (Enero 2022 – Mayo 2026)
-* **Tipo:** DeepTech · Plataforma de Gestión de Activos de I+D · Stakeholder Management
-* **Resumen:** Aplicación de Product Discovery para acelerar spin-offs científicas desde el laboratorio al mercado. Gestión del roadmap evolutivo de la plataforma Janus y diseño del Investor Deck para Distritos de Innovación Regionales.
+### [3. Distritos de Innovación y Plataforma Janus](./cases/03-janus-tech-transfer.md)
+* **Rol:** Product Manager & Estratega de Ecosistemas (Enero 2022 – Mayo 2026)
+* **Tipo:** Ecosistemas DeepTech · Modelamiento de Negocio & Finanzas (VAN MMUS$ 142) · Alianza CMPC
+* **Resumen:** Formulación estratégica y financiera para distritos territoriales de innovación (iD3 Biobío y CIDLA Los Ángeles junto a CMPC). Co-diseño con Georgia Tech (Tech Square), estructuración de modelo de negocio y orquestación con la plataforma digital Janus.
 * **[Ver Caso Completo ➔](./cases/03-janus-tech-transfer.md)**
 
 ### [4. SVTI — Eficiencia y Gestión de Flujos Críticos en Operaciones Portuarias](./cases/04-svti-operations.md)
