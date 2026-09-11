@@ -2,7 +2,7 @@
 
 > **Senior Product Manager & Founder**  
 > *Evidence-Driven Product Discovery · B2B SaaS · AI & Decision Systems*  
-> Santiago, Chile · [LinkedIn](https://linkedin.com/in/jpablosilva)
+> Santiago, Chile · [LinkedIn](https://linkedin.com/in/jpablosilva) · [GitHub](https://github.com/jotapesvz)
 
 ---
 
@@ -73,4 +73,5 @@ graph TD
 ## 📬 Contacto
 
 * **LinkedIn:** [linkedin.com/in/jpablosilva](https://linkedin.com/in/jpablosilva)
+* **GitHub:** [github.com/jotapesvz](https://github.com/jotapesvz)
 * **Ubicación:** Las Condes, Santiago, Chile (Disponible para roles Remoto / Híbrido)
