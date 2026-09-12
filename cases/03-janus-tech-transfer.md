@@ -61,7 +61,9 @@ graph TD
 
 ## 3. Modelamiento de Negocio & Finanzas (Unit Economics a Gran Escala)
 
-Como líder de la formulación estratégica, estructuré el **modelo de financiamiento público-privado vía Consorcio** y los flujos de ingresos/egresos:
+Como líder de la formulación estratégica y especificación técnica, colaboré en la estructuración del **modelo de financiamiento público-privado vía Consorcio** y los flujos de ingresos/egresos:
+
+> **Nota de atribución:** El modelo financiero del distrito fue evaluado en USD 142M VAN y 14,3% TIR. Mi rol específico abarcó la formulación de producto, especificación de los centros de Industria 4.0 y de Data Science / IA, e integración con la plataforma digital Janus.
 
 | Métrica Financiera | Valor Proyecto iD3 | Significado de Producto |
 | :--- | :--- | :--- |

@@ -53,6 +53,6 @@ flowchart TD
 
 ## 4. Métricas e Impacto en Negocio
 
-* **Adopción Masiva:** Impulsé nuevas funcionalidades que alcanzaron más de **2.000 descargas** y consolidaron un flujo activo de **16.000 usuarios en faena**.
-* **Eficiencia Operacional:** Reestructuración de flujos del producto y procesos de resolución de incidentes, logrando un **aumento del 30% en la eficiencia de soporte y ejecución operacional**.
+* **Adopción Masiva:** Impulsé nuevas funcionalidades que alcanzaron **2.000+ descargas** sobre una base de [[JP: completar — universo instalado]] en un producto con una base instalada de **16.000 usuarios activos en terreno** ([[JP: completar — ventana: MAU/DAU]]).
+* **Eficiencia Operacional:** Reestructuración de flujos del producto y procesos de soporte, logrando un **+30% en [[JP: completar — métrica exacta, ej. tiempo de resolución de tickets de soporte]] ([[JP: completar — período de medición]])**.
 * **Alineación Estratégica:** Entrega de un roadmap evolutivo validado que integró la investigación en neurociencia con lanzamientos quincenales de valor tangible para los clientes mineros.

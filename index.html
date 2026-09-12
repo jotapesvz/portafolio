@@ -82,6 +82,7 @@
           <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
           Demo Nauvo
         </a>
+        <a href="#proceso" class="hover:text-zinc-950 transition-colors">Proceso</a>
         <a href="#trayectoria" class="hover:text-zinc-950 transition-colors">Trayectoria</a>
         <a href="#contacto" class="hover:text-zinc-950 transition-colors">Contacto</a>
       </nav>
@@ -123,8 +124,27 @@
         </p>
       </div>
 
+      <!-- 15-Second Value Proposition Line (P2-7) -->
+      <div class="p-3.5 sm:p-4 rounded-xl bg-zinc-100/90 border border-zinc-200/90 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-sm">
+        <div class="flex items-center gap-2 text-zinc-900 font-semibold">
+          <i data-lucide="compass" class="w-4 h-4 text-brand-600"></i>
+          <span>Disponible para:</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs sm:text-sm font-medium">
+          <a href="#contacto-roles" class="text-brand-600 hover:text-brand-700 hover:underline flex items-center gap-1">
+            <span>(1) Roles Senior PM / Lead PM / PO</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+          <span class="text-zinc-300 hidden sm:inline">|</span>
+          <a href="#contacto-freelance" class="text-brand-600 hover:text-brand-700 hover:underline flex items-center gap-1">
+            <span>(2) Proyectos acotados de discovery y PRD</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
       <!-- Action Buttons -->
-      <div class="flex flex-wrap items-center gap-4 pt-2">
+      <div class="flex flex-wrap items-center gap-4 pt-1">
         <a href="#casos" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-950 text-white font-semibold text-sm hover:bg-zinc-800 transition-all shadow-md">
           <span>Explorar Casos de Estudio</span>
           <i data-lucide="arrow-down" class="w-4 h-4"></i>
@@ -135,27 +155,27 @@
         </a>
       </div>
 
-      <!-- Highlight Metric Strips -->
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6">
-        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1">
+      <!-- Highlight Metric Strips (P0-2) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
+        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1.5">
           <div class="text-3xl font-extrabold text-zinc-950 tracking-tight">+30%</div>
           <div class="text-xs font-semibold text-zinc-500 uppercase tracking-wider">Eficiencia Operacional</div>
-          <div class="text-xs text-zinc-600">Optimización de flujos y soporte en Gauss Control</div>
+          <div class="text-xs text-zinc-600 leading-relaxed">+30% en [[JP: completar — métrica exacta, ej. tiempo de resolución de tickets de soporte]] ([[JP: completar — período de medición]])</div>
         </div>
-        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1">
+        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1.5">
           <div class="text-3xl font-extrabold text-zinc-950 tracking-tight">16.000</div>
-          <div class="text-xs font-semibold text-zinc-500 uppercase tracking-wider">Usuarios Activos</div>
-          <div class="text-xs text-zinc-600">Flujo en terreno en minería e industria pesada</div>
+          <div class="text-xs font-semibold text-zinc-500 uppercase tracking-wider">Base Instalada</div>
+          <div class="text-xs text-zinc-600 leading-relaxed">Producto con 16.000 usuarios activos en terreno ([[JP: completar — ventana: MAU/DAU]]), minería e industria pesada</div>
         </div>
-        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1">
+        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1.5">
           <div class="text-3xl font-extrabold text-zinc-950 tracking-tight">TRL 3 ➔ 4</div>
           <div class="text-xs font-semibold text-zinc-500 uppercase tracking-wider">Maduración de IA</div>
-          <div class="text-xs text-zinc-600">De tesis académica a motor funcional con clientes piloto</div>
+          <div class="text-xs text-zinc-600 leading-relaxed">De tesis académica a motor funcional con clientes piloto (al [[JP: completar — mes/año]])</div>
         </div>
-        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1">
-          <div class="text-3xl font-extrabold text-zinc-950 tracking-tight">+2.000</div>
-          <div class="text-xs font-semibold text-zinc-500 uppercase tracking-wider">Descargas Activas</div>
-          <div class="text-xs text-zinc-600">En nuevas features de Monitoreo de Personas</div>
+        <div class="bg-white p-5 rounded-2xl border border-zinc-200/80 shadow-sm space-y-1.5">
+          <div class="text-3xl font-extrabold text-zinc-950 tracking-tight">2.000+</div>
+          <div class="text-xs font-semibold text-zinc-500 uppercase tracking-wider">Adopción de Features</div>
+          <div class="text-xs text-zinc-600 leading-relaxed">2.000+ descargas sobre una base de [[JP: completar — universo instalado]]</div>
         </div>
       </div>
     </section>
@@ -199,7 +219,7 @@
               </div>
               <ul class="list-disc list-inside space-y-1 text-zinc-600">
                 <li>Maduración de <strong>TRL 3 a TRL 4</strong> con prototipo funcional interactivo.</li>
-                <li><strong>3 clientes piloto</strong> y 1 fondo de Venture Capital en validación.</li>
+                <li><strong>3 clientes piloto</strong> y 1 fondo de Venture Capital en validación (al [[JP: completar — mes/año]]).</li>
                 <li>Definición de criterios de aceptación para salidas no deterministas de LLMs.</li>
               </ul>
             </div>
@@ -240,9 +260,9 @@
                 Impacto en Negocio:
               </div>
               <ul class="list-disc list-inside space-y-1 text-zinc-600">
-                <li><strong>+30% de eficiencia</strong> en soporte y ejecución operacional del producto.</li>
-                <li>Flujo activo y continuo de <strong>16.000 usuarios</strong> en faena minera.</li>
-                <li>Más de <strong>2.000 descargas</strong> en nuevas funcionalidades de la app.</li>
+                <li><strong>+30%</strong> en [[JP: completar — métrica exacta, ej. tiempo de resolución de tickets de soporte]] ([[JP: completar — período de medición]]).</li>
+                <li>Producto con <strong>16.000 usuarios activos en terreno</strong> ([[JP: completar — ventana: MAU/DAU]]), minería e industria pesada.</li>
+                <li><strong>2.000+ descargas</strong> sobre una base de [[JP: completar — universo instalado]] en nuevas funcionalidades de la app.</li>
               </ul>
             </div>
           </div>
@@ -262,7 +282,7 @@
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-purple-50 text-purple-700 border border-purple-200">Ecosistemas +MMUS$ 150</span>
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Alianza CMPC</span>
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Georgia Tech Benchmark</span>
-              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">VAN MMUS$ 142</span>
+              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Infraestructura & Tech</span>
             </div>
             
             <div class="space-y-2">
@@ -270,7 +290,7 @@
                 Distritos de Innovación y Plataforma Janus
               </h3>
               <p class="text-sm text-zinc-600 leading-relaxed">
-                Formulación de producto y modelamiento de negocio para distritos territoriales de innovación: <strong>iD3 Biobío</strong> (6,5 Ha) y <strong>CIDLA Los Ángeles junto a CMPC</strong>. Co-diseño con Georgia Tech, estructuración financiera (VAN MMUS$ 142, TIR 14,3%) y orquestación con la plataforma digital Janus.
+                Formulación de producto y modelamiento de negocio para distritos territoriales de innovación: <strong>iD3 Biobío</strong> (6,5 Ha) y <strong>CIDLA Los Ángeles junto a CMPC</strong>, articulados mediante la plataforma digital Janus. Modelo financiero del distrito evaluado en USD 142M VAN / 14,3% TIR. Mi rol: especificación de los centros de Industria 4.0 y de Data Science / IA.
               </p>
             </div>
 
@@ -281,7 +301,7 @@
               </div>
               <ul class="list-disc list-inside space-y-1 text-zinc-600">
                 <li><strong>Alianza con CMPC (CIDLA):</strong> Especificación programática de centros de Industria 4.0 (C4i) y Ciencia de Datos/IA (CDIA).</li>
-                <li><strong>Modelamiento Financiero Aprobado:</strong> VAN de MMUS$ 142 y TIR de 14,3% (UF+) presentado a Directorio y GORE.</li>
+                <li><strong>Evaluación Financiera del Distrito:</strong> Modelo financiero evaluado en USD 142M VAN / 14,3% TIR. Mi rol: especificación de los centros de Industria 4.0 y de Data Science / IA.</li>
                 <li><strong>Discovery Internacional:</strong> Co-diseño con Georgia Tech tomando el modelo de Tech Square (Atlanta).</li>
               </ul>
             </div>
@@ -502,14 +522,62 @@
       </div>
     </section>
 
-    <!-- Competencies & Stack Section -->
+    <!-- Process Case Study Section (P0-3) -->
+    <section id="proceso" class="space-y-6">
+      <div class="border-b border-zinc-200 pb-4 space-y-1">
+        <div class="text-xs font-bold uppercase tracking-widest text-brand-600 font-mono">Metodología & Ejecución Real</div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-zinc-950 tracking-tight">
+          Cómo entro a una unidad de producto que no tiene base instalada
+        </h2>
+        <p class="text-sm text-zinc-500">
+          Relato de proceso: diagnóstico, movimientos tácticos para destrabar ejecución y aprendizajes en terreno.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-3xl border border-zinc-200/90 p-6 sm:p-10 shadow-sm space-y-8">
+        <!-- El punto de partida -->
+        <div class="space-y-2 border-l-2 border-amber-500 pl-4 sm:pl-6">
+          <div class="text-xs font-mono font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5">
+            <i data-lucide="compass" class="w-4 h-4"></i>
+            <span>El punto de partida</span>
+          </div>
+          <p class="text-sm sm:text-base text-zinc-700 leading-relaxed">
+            Llegué a una unidad de producto sin visión ni misión declaradas, sin roadmap definido, sin backlog priorizado y sin métricas ni revenue como referencia. La deuda técnica consumía cerca del 60% del tiempo del equipo en operación. La expectativa de resultados era la misma que si todo eso existiera.
+          </p>
+        </div>
+
+        <!-- Qué hice -->
+        <div class="space-y-2 border-l-2 border-brand-500 pl-4 sm:pl-6">
+          <div class="text-xs font-mono font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5">
+            <i data-lucide="check-circle" class="w-4 h-4"></i>
+            <span>Qué hice</span>
+          </div>
+          <p class="text-sm sm:text-base text-zinc-700 leading-relaxed font-mono text-xs sm:text-sm bg-zinc-50 p-4 rounded-xl border border-zinc-200">
+            [[JP: completar — 3 a 5 movimientos concretos, en orden, con lo que cada uno destrabó]]
+          </p>
+        </div>
+
+        <!-- Qué aprendí -->
+        <div class="space-y-2 border-l-2 border-emerald-500 pl-4 sm:pl-6">
+          <div class="text-xs font-mono font-bold uppercase tracking-wider text-emerald-700 flex items-center gap-1.5">
+            <i data-lucide="lightbulb" class="w-4 h-4"></i>
+            <span>Qué aprendí</span>
+          </div>
+          <p class="text-sm sm:text-base text-zinc-700 leading-relaxed font-mono text-xs sm:text-sm bg-zinc-50 p-4 rounded-xl border border-zinc-200">
+            [[JP: completar — 2 frases; especialmente qué haría distinto respecto de negociar plazo sin evidencia dura]]
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competencies & Stack Section (P1-4 & P1-5) -->
     <section id="trayectoria" class="space-y-10">
       <div class="border-b border-zinc-200 pb-6 space-y-2">
         <div class="text-xs font-bold uppercase tracking-widest text-emerald-600 font-mono">Expertise & Tooling</div>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-zinc-950 tracking-tight">Competencias & Filosofía de Producto</h2>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- Col 1 -->
         <div class="bg-white p-6 rounded-2xl border border-zinc-200 space-y-4">
           <div class="w-10 h-10 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-600">
@@ -542,20 +610,31 @@
           </div>
         </div>
 
-        <!-- Col 3 -->
+        <!-- Col 3: Criterio técnico de producto (P1-4) -->
         <div class="bg-white p-6 rounded-2xl border border-zinc-200 space-y-4">
           <div class="w-10 h-10 rounded-xl bg-purple-50 border border-purple-200 flex items-center justify-center text-purple-600">
             <i data-lucide="terminal" class="w-5 h-5"></i>
           </div>
-          <h3 class="text-lg font-bold text-zinc-950">Data & AI Engineering Sense</h3>
+          <h3 class="text-lg font-bold text-zinc-950">Criterio técnico de producto</h3>
           <p class="text-xs text-zinc-600 leading-relaxed">
-            Fluidez en SQL, Python y modelado de grafos acíclicos. Capacidad para diseñar productos con asistentes de IA agénticos sin caer en el sesgo de soluciones de caja negra.
+            Suficiente para decidir arquitectura sin delegar a ciegas: modelo de datos, trade-offs entre determinismo y LLM, y cuándo un sistema explicable vale más que uno preciso. Leo y escribo SQL y Python cuando hace falta validar una hipótesis; no compito como ingeniero.
           </p>
           <div class="flex flex-wrap gap-1.5 pt-2">
-            <span class="px-2 py-0.5 rounded bg-zinc-100 text-[11px] font-medium text-zinc-700">Python & SQL</span>
-            <span class="px-2 py-0.5 rounded bg-zinc-100 text-[11px] font-medium text-zinc-700">AI Agents / LLMs</span>
-            <span class="px-2 py-0.5 rounded bg-zinc-100 text-[11px] font-medium text-zinc-700">Looker Studio</span>
+            <span class="px-2 py-0.5 rounded bg-zinc-100 text-[11px] font-medium text-zinc-700">Modelo de Datos</span>
+            <span class="px-2 py-0.5 rounded bg-zinc-100 text-[11px] font-medium text-zinc-700">Trade-offs IA / Sistemas</span>
+            <span class="px-2 py-0.5 rounded bg-zinc-100 text-[11px] font-medium text-zinc-700">SQL & Python</span>
           </div>
+        </div>
+
+        <!-- Col 4: Construyo lo que especifico (P1-5) -->
+        <div class="bg-white p-6 rounded-2xl border border-zinc-200 space-y-4">
+          <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-600">
+            <i data-lucide="hammer" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-lg font-bold text-zinc-950">Construyo lo que especifico</h3>
+          <p class="text-xs text-zinc-600 leading-relaxed">
+            Este sitio y el simulador DAG de Nauvo los desarrollé yo, usando Claude para arquitectura y razonamiento de producto y Antigravity para ejecución de código. Me permite validar hipótesis en días en vez de negociarlas como sprint.
+          </p>
         </div>
       </div>
     </section>
@@ -594,31 +673,112 @@
       </div>
     </section>
 
-    <!-- Footer / Contact Section -->
-    <section id="contacto" class="bg-zinc-950 text-white rounded-3xl p-8 sm:p-12 space-y-8 text-center border border-zinc-900">
-      <div class="max-w-2xl mx-auto space-y-3">
+    <!-- Footer / Contact Section (P0-1, P2-6, P2-8) -->
+    <section id="contacto" class="bg-zinc-950 text-white rounded-3xl p-8 sm:p-12 space-y-10 border border-zinc-900">
+      <div class="max-w-3xl mx-auto space-y-3 text-center">
         <div class="text-xs font-mono font-bold text-emerald-400 uppercase tracking-widest">Let's Connect</div>
-        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">¿Conversamos sobre tu próximo desafío de producto?</h2>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">¿Conversamos sobre tu próximo desafío de producto?</h2>
         <p class="text-sm text-zinc-400">
-          Disponible para roles de <strong>Senior Product Manager, Lead PM o Product Owner</strong> en modalidad remota o híbrida en Santiago.
+          Dos modalidades de colaboración según la etapa y necesidad de tu organización.
         </p>
       </div>
 
-      <div class="flex flex-wrap items-center justify-center gap-4">
-        <a href="https://linkedin.com/in/jpablosilva" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-zinc-950 font-bold text-sm hover:bg-zinc-100 transition-colors">
-          <i data-lucide="linkedin" class="w-4 h-4 text-blue-600"></i>
-          <span>Conectar en LinkedIn</span>
-        </a>
-        <a href="https://github.com/jotapesvz/portafolio" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-900 border border-zinc-700 text-white font-bold text-sm hover:bg-zinc-800 transition-colors">
-          <i data-lucide="github" class="w-4 h-4"></i>
-          <span>Ver Repositorio GitHub</span>
-        </a>
+      <!-- ORDEN DE RUTAS: Para priorizar freelance sobre roles, invertir las clases order-1 y order-2 en los dos bloques a continuación -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
+        
+        <!-- Camino A — Roles -->
+        <div id="contacto-roles" class="order-1 bg-zinc-900/90 border border-zinc-800 rounded-2xl p-7 flex flex-col justify-between space-y-6">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950/60 border border-emerald-800/80 px-2.5 py-1 rounded-full">
+                Camino A
+              </span>
+              <span class="text-xs text-zinc-400">Senior PM · Lead PM · PO</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white tracking-tight">Roles</h3>
+            <p class="text-sm text-zinc-300 leading-relaxed">
+              Busco posiciones Senior PM, Lead PM o Product Owner, remoto o híbrido en Santiago. Me interesan productos B2B donde equivocarse tenga costo operativo real.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-zinc-800 flex flex-wrap gap-3">
+            <a href="mailto:[[JP: completar — tu correo electrónico]]?subject=Rol%20Senior%20PM%20-%20Juan%20Pablo%20Silva" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-zinc-950 font-bold text-sm hover:bg-zinc-100 transition-colors shadow-sm">
+              <i data-lucide="mail" class="w-4 h-4 text-emerald-600"></i>
+              <span>Hablemos de un rol</span>
+            </a>
+            <a href="https://linkedin.com/in/jpablosilva" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-800 border border-zinc-700 text-zinc-200 font-semibold text-sm hover:bg-zinc-700 transition-colors">
+              <i data-lucide="linkedin" class="w-4 h-4 text-blue-400"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Camino B — Proyectos acotados -->
+        <div id="contacto-freelance" class="order-2 bg-zinc-900/90 border border-zinc-800 rounded-2xl p-7 flex flex-col justify-between space-y-6">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono font-bold uppercase tracking-wider text-brand-400 bg-brand-950/60 border border-brand-800/80 px-2.5 py-1 rounded-full">
+                Camino B
+              </span>
+              <span class="text-xs text-zinc-400">Consultoría & Discovery</span>
+            </div>
+            <h3 class="text-2xl font-bold text-white tracking-tight">Proyectos acotados</h3>
+            <p class="text-sm text-zinc-300 leading-relaxed">
+              También tomo encargos puntuales, con alcance y precio cerrados:
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-zinc-300">
+              <li class="flex items-start gap-2">
+                <span class="text-brand-400 font-bold">·</span>
+                <span>Discovery y definición de alcance sobre un problema todavía difuso</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-brand-400 font-bold">·</span>
+                <span>PRD con criterios de aceptación y trazabilidad de decisiones</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-brand-400 font-bold">·</span>
+                <span>Estimación y gobernanza por etapas (MVP → puesta en marcha → producción)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-brand-400 font-bold">·</span>
+                <span>Auditoría de un backlog o de una unidad de producto sin métricas instaladas</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-4 border-t border-zinc-800">
+            <a href="mailto:[[JP: completar — tu correo electrónico]]?subject=Proyecto" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-600 text-white font-bold text-sm hover:bg-brand-500 transition-colors shadow-sm">
+              <i data-lucide="send" class="w-4 h-4"></i>
+              <span>Conversemos un proyecto</span>
+            </a>
+          </div>
+        </div>
+
       </div>
 
-      <div class="pt-8 border-t border-zinc-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4">
-        <div>© 2026 Juan Pablo Silva. Diseñado para alto impacto en producto tech.</div>
-        <div class="flex items-center gap-4">
-          <a href="#" class="hover:text-zinc-300 transition-colors">Volver arriba ↑</a>
+      <!-- Current Focus & Build Timestamp (P2-8) -->
+      <div class="pt-6 border-t border-zinc-800/80 space-y-4 text-xs text-zinc-400">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-3.5 rounded-xl bg-zinc-900/60 border border-zinc-800/80">
+          <div class="flex items-center gap-2 text-zinc-300">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <strong class="text-zinc-200">En qué estoy ahora:</strong>
+            <span>Nauvo — motor de inferencia en TRL 4, pilotos en curso.</span>
+          </div>
+          <div class="text-zinc-500 font-mono text-[11px]">
+            Última actualización: 12-09-2026
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-between text-zinc-500 gap-4 pt-2">
+          <div>© 2026 Juan Pablo Silva. Diseñado para alto impacto en producto tech.</div>
+          <div class="flex items-center gap-4">
+            <a href="https://github.com/jotapesvz/portafolio" target="_blank" rel="noopener" class="hover:text-zinc-300 transition-colors flex items-center gap-1">
+              <i data-lucide="github" class="w-3.5 h-3.5"></i>
+              <span>Código fuente</span>
+            </a>
+            <span>·</span>
+            <a href="#" class="hover:text-zinc-300 transition-colors">Volver arriba ↑</a>
+          </div>
         </div>
       </div>
     </section>
