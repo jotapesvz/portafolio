@@ -195,38 +195,53 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
         <!-- Case 1: Nauvo -->
-        <article class="bg-white rounded-2xl border border-zinc-200 p-7 flex flex-col justify-between card-hover space-y-6">
+        <article class="bg-white rounded-2xl border border-zinc-200 p-6 sm:p-7 flex flex-col justify-between card-hover space-y-5">
           <div class="space-y-4">
             <div class="flex flex-wrap items-center gap-2">
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">0 to 1 · Flagship</span>
-              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">IA Simbólica & DAG</span>
+              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Compound AI System</span>
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Venture Capital</span>
             </div>
             
-            <div class="space-y-2">
-              <h3 class="text-2xl font-bold text-zinc-950 hover:text-emerald-600 transition-colors">
+            <div class="space-y-1.5">
+              <h3 class="text-xl sm:text-2xl font-bold text-zinc-950 hover:text-emerald-600 transition-colors">
                 Nauvo: Motor de Inferencia para Evaluación de Riesgo en Startups
               </h3>
               <p class="text-sm text-zinc-600 leading-relaxed">
-                Diseño y maduración de un sistema determinista sobre Grafo Dirigido Acíclico (DAG) asistido por LLMs para auditar la coherencia interna de tesis de inversión en etapas pre-semilla, eliminando el sesgo de "caja negra".
+                Sistema determinista sobre Grafo Dirigido Acíclico (DAG) asistido por LLMs para auditar la consistencia interna de tesis de inversión pre-semilla, eliminando el sesgo de «caja negra».
               </p>
             </div>
 
-            <div class="bg-zinc-50 rounded-xl p-4 border border-zinc-100 space-y-2 text-xs text-zinc-700">
-              <div class="font-bold text-zinc-900 flex items-center gap-1.5">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i>
-                Hitos & Métricas de Impacto:
+            <!-- Discovery ➔ Delivery Arc -->
+            <div class="space-y-3 pt-1">
+              <!-- Discovery Block -->
+              <div class="p-3.5 rounded-xl bg-zinc-50 border border-zinc-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-zinc-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="compass" class="w-3.5 h-3.5 text-zinc-500"></i>
+                  Discovery & Decisiones
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Problema & Grounding:</strong> La evaluación cualitativa en VC es lenta y sesgada; los LLMs genéricos alucinan y carecen de coherencia lógica en métricas financieras.</li>
+                  <li><strong class="text-zinc-900 font-semibold">Trade-off Técnico:</strong> Descarte de LLM monolítico no explicable. Arquitectura Compound AI: motor causal determinista asistido por LLMs solo para extracción contextual.</li>
+                </ul>
               </div>
-              <ul class="list-disc list-inside space-y-1.5 text-zinc-600">
-                <li><strong class="text-zinc-900 font-semibold">Maduración TRL 3 ➔ 4:</strong> Evolución desde tesis académica a prototipo funcional interactivo con DAG determinista.</li>
-                <li><strong class="text-zinc-900 font-semibold">Validación Comercial:</strong> 3 clientes piloto confirmados y 1 fondo de Venture Capital en evaluación (Septiembre 2026).</li>
-                <li><strong class="text-zinc-900 font-semibold">Criterios de Aceptación:</strong> Calibración de ground truth y métricas de parsimonia para auditar salidas de LLMs.</li>
-              </ul>
+
+              <!-- Delivery & Impact Block -->
+              <div class="p-3.5 rounded-xl bg-emerald-50/50 border border-emerald-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-emerald-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="zap" class="w-3.5 h-3.5 text-emerald-600"></i>
+                  Delivery & Impacto
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Ejecución & Guardrails:</strong> Motor en Python con evaluación lógica de coherencia, calibración con ground truth y criterios de parsimonia para salidas de LLMs.</li>
+                  <li><strong class="text-zinc-900 font-semibold">Métricas Clave:</strong> Maduración de <strong>TRL 3 a TRL 4</strong>; 3 clientes piloto y 1 fondo de Venture Capital en validación comercial (Septiembre 2026).</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/01-nauvo-risk-engine.md" target="_blank" rel="noopener" class="text-sm font-bold text-zinc-900 hover:text-emerald-600 flex items-center gap-1.5 transition-colors">
+          <div class="pt-3 border-t border-zinc-100 flex items-center justify-between">
+            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/01-nauvo-risk-engine.md" target="_blank" rel="noopener" class="text-xs sm:text-sm font-bold text-zinc-900 hover:text-emerald-600 flex items-center gap-1.5 transition-colors">
               <span>Leer caso completo en GitHub</span>
               <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
             </a>
@@ -237,38 +252,53 @@
         </article>
 
         <!-- Case 2: Gauss Control -->
-        <article class="bg-white rounded-2xl border border-zinc-200 p-7 flex flex-col justify-between card-hover space-y-6">
+        <article class="bg-white rounded-2xl border border-zinc-200 p-6 sm:p-7 flex flex-col justify-between card-hover space-y-5">
           <div class="space-y-4">
             <div class="flex flex-wrap items-center gap-2">
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200">Scale & Delivery</span>
-              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">B2B SaaS Enterprise</span>
+              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Human-in-the-Loop (HITL)</span>
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Minería Heavy-Duty</span>
             </div>
             
-            <div class="space-y-2">
-              <h3 class="text-2xl font-bold text-zinc-950 hover:text-blue-600 transition-colors">
+            <div class="space-y-1.5">
+              <h3 class="text-xl sm:text-2xl font-bold text-zinc-950 hover:text-blue-600 transition-colors">
                 Gauss Control: Monitoreo de Personas y Mitigación de Riesgo Humano
               </h3>
               <p class="text-sm text-zinc-600 leading-relaxed">
-                Liderazgo funcional de célula ágil (Tech Lead, BA, Devs) para la suite de monitoreo de fatiga y somnolencia en faenas mineras, conectando neurociencia y procesamiento de señales con software escalable.
+                Liderazgo de producto para la suite de monitoreo de fatiga y somnolencia en faenas mineras de alta exigencia operacional, conectando neurociencia con software escalable.
               </p>
             </div>
 
-            <div class="bg-zinc-50 rounded-xl p-4 border border-zinc-100 space-y-2 text-xs text-zinc-700">
-              <div class="font-bold text-zinc-900 flex items-center gap-1.5">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-blue-600"></i>
-                Hitos & Métricas de Impacto:
+            <!-- Discovery ➔ Delivery Arc -->
+            <div class="space-y-3 pt-1">
+              <!-- Discovery Block -->
+              <div class="p-3.5 rounded-xl bg-zinc-50 border border-zinc-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-zinc-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="compass" class="w-3.5 h-3.5 text-zinc-500"></i>
+                  Discovery & Decisiones
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Problema Operativo:</strong> Falsos positivos en detección de fatiga generaban rechazo en operadores y sobrecargaban al equipo de soporte en turnos de 24/7.</li>
+                  <li><strong class="text-zinc-900 font-semibold">Criterio de Producto:</strong> Priorizar la confiabilidad en terreno y la baja fricción de reporte (Human-in-the-Loop) por sobre modelos predictivos oscuros.</li>
+                </ul>
               </div>
-              <ul class="list-disc list-inside space-y-1.5 text-zinc-600">
-                <li><strong class="text-zinc-900 font-semibold">+30% en Eficiencia:</strong> Reducción en tiempo de resolución de tickets de soporte operacional (Mayo – Agosto 2026).</li>
-                <li><strong class="text-zinc-900 font-semibold">16.000 Usuarios Activos:</strong> Base instalada de operadores monitoreados en terreno (MAU) en faena minera.</li>
-                <li><strong class="text-zinc-900 font-semibold">2.000+ Descargas:</strong> Adopción de nuevas funcionalidades predictivas sobre la base instalada de 16.000 operadores.</li>
-              </ul>
+
+              <!-- Delivery & Impact Block -->
+              <div class="p-3.5 rounded-xl bg-blue-50/50 border border-blue-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-blue-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="zap" class="w-3.5 h-3.5 text-blue-600"></i>
+                  Delivery & Impacto
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Liderazgo Ágil:</strong> Gestión de célula multidisciplinaria (Tech Lead, BA, Devs), sprint cadences y gobernanza de backlog enfocada en resolución de tickets.</li>
+                  <li><strong class="text-zinc-900 font-semibold">Métricas de Negocio:</strong> <strong>+30% en eficiencia</strong> de resolución de soporte; base activa de <strong>16.000 operadores (MAU)</strong>; <strong>2.000+ descargas</strong> de nuevas funcionalidades.</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/02-gauss-control-monitoring.md" target="_blank" rel="noopener" class="text-sm font-bold text-zinc-900 hover:text-blue-600 flex items-center gap-1.5 transition-colors">
+          <div class="pt-3 border-t border-zinc-100 flex items-center justify-between">
+            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/02-gauss-control-monitoring.md" target="_blank" rel="noopener" class="text-xs sm:text-sm font-bold text-zinc-900 hover:text-blue-600 flex items-center gap-1.5 transition-colors">
               <span>Leer caso completo en GitHub</span>
               <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
             </a>
@@ -276,38 +306,53 @@
         </article>
 
         <!-- Case 3: Distritos de Innovación & Janus -->
-        <article class="bg-white rounded-2xl border border-zinc-200 p-7 flex flex-col justify-between card-hover space-y-6">
+        <article class="bg-white rounded-2xl border border-zinc-200 p-6 sm:p-7 flex flex-col justify-between card-hover space-y-5">
           <div class="space-y-4">
             <div class="flex flex-wrap items-center gap-2">
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-purple-50 text-purple-700 border border-purple-200">Ecosistemas +MMUS$ 150</span>
+              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">DeepTech Transfer</span>
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Alianza CMPC</span>
-              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Georgia Tech Benchmark</span>
             </div>
             
-            <div class="space-y-2">
-              <h3 class="text-2xl font-bold text-zinc-950 hover:text-purple-600 transition-colors">
+            <div class="space-y-1.5">
+              <h3 class="text-xl sm:text-2xl font-bold text-zinc-950 hover:text-purple-600 transition-colors">
                 Distritos de Innovación y Plataforma Janus
               </h3>
               <p class="text-sm text-zinc-600 leading-relaxed">
-                Formulación de producto y modelamiento de negocio para distritos territoriales de innovación: <strong>iD3 Biobío</strong> (6,5 Ha) y <strong>CIDLA Los Ángeles junto a CMPC</strong>, articulados mediante la plataforma digital Janus.
+                Formulación de producto y modelamiento de negocio para distritos territoriales: <strong>iD3 Biobío</strong> (6,5 Ha) y <strong>CIDLA Los Ángeles con CMPC</strong>, orquestados mediante la plataforma digital Janus.
               </p>
             </div>
 
-            <div class="bg-zinc-50 rounded-xl p-4 border border-zinc-100 space-y-2 text-xs text-zinc-700">
-              <div class="font-bold text-zinc-900 flex items-center gap-1.5">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-purple-600"></i>
-                Hitos & Métricas de Impacto:
+            <!-- Discovery ➔ Delivery Arc -->
+            <div class="space-y-3 pt-1">
+              <!-- Discovery Block -->
+              <div class="p-3.5 rounded-xl bg-zinc-50 border border-zinc-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-zinc-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="compass" class="w-3.5 h-3.5 text-zinc-500"></i>
+                  Discovery & Decisiones
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Problema de Transferencia:</strong> Desacople entre invenciones científicas en laboratorios universitarios y la demanda tecnológica de la industria forestal y manufacturera.</li>
+                  <li><strong class="text-zinc-900 font-semibold">Benchmark Internacional:</strong> Co-diseño metodológico junto a Georgia Tech (modelo Tech Square Atlanta) para validar demanda corporativa real.</li>
+                </ul>
               </div>
-              <ul class="list-disc list-inside space-y-1.5 text-zinc-600">
-                <li><strong class="text-zinc-900 font-semibold">Evaluación Financiera:</strong> Modelo del distrito evaluado en USD 142M VAN y 14,3% TIR; mi rol fue la especificación técnica.</li>
-                <li><strong class="text-zinc-900 font-semibold">Alianza Estratégica CMPC:</strong> Especificación programática de centros de Industria 4.0 (C4i) y Ciencia de Datos / IA (CDIA).</li>
-                <li><strong class="text-zinc-900 font-semibold">Discovery Internacional:</strong> Co-diseño metodológico junto a Georgia Tech tomando como referencia el modelo Tech Square Atlanta.</li>
-              </ul>
+
+              <!-- Delivery & Impact Block -->
+              <div class="p-3.5 rounded-xl bg-purple-50/50 border border-purple-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-purple-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="zap" class="w-3.5 h-3.5 text-purple-600"></i>
+                  Delivery & Impacto
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Especificación Técnica:</strong> Formulación funcional de centros de Industria 4.0 (C4i) y Ciencia de Datos / IA (CDIA), y arquitectura digital de Janus.</li>
+                  <li><strong class="text-zinc-900 font-semibold">Evaluación Financiera:</strong> Modelo del distrito evaluado en <strong>USD 142M VAN y 14,3% TIR</strong>; alianza UdeC + CMPC (CIDLA) y masterplan iD3 aprobado.</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between gap-2 flex-wrap">
-            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/03-janus-tech-transfer.md" target="_blank" rel="noopener" class="text-sm font-bold text-zinc-900 hover:text-purple-600 flex items-center gap-1.5 transition-colors">
+          <div class="pt-3 border-t border-zinc-100 flex items-center justify-between gap-2 flex-wrap">
+            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/03-janus-tech-transfer.md" target="_blank" rel="noopener" class="text-xs sm:text-sm font-bold text-zinc-900 hover:text-purple-600 flex items-center gap-1.5 transition-colors">
               <span>Leer caso completo</span>
               <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
             </a>
@@ -319,38 +364,53 @@
         </article>
 
         <!-- Case 4: SVTI -->
-        <article class="bg-white rounded-2xl border border-zinc-200 p-7 flex flex-col justify-between card-hover space-y-6">
+        <article class="bg-white rounded-2xl border border-zinc-200 p-6 sm:p-7 flex flex-col justify-between card-hover space-y-5">
           <div class="space-y-4">
             <div class="flex flex-wrap items-center gap-2">
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200">Product Operations</span>
+              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Real-Time Observability</span>
               <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Logística Portuaria</span>
-              <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700">Data Analytics & SLAs</span>
             </div>
             
-            <div class="space-y-2">
-              <h3 class="text-2xl font-bold text-zinc-950 hover:text-amber-600 transition-colors">
+            <div class="space-y-1.5">
+              <h3 class="text-xl sm:text-2xl font-bold text-zinc-950 hover:text-amber-600 transition-colors">
                 SVTI: Operaciones Críticas Portuarias y Optimización de Lead Time
               </h3>
               <p class="text-sm text-zinc-600 leading-relaxed">
-                Gestión y optimización de flujos logísticos marítimos para las principales exportadoras de la macrozona sur. Eliminación de cuellos de botella en patio y muelle, digitalización de KPIs en tiempo real y garantía de SLAs 24/7.
+                Gestión y optimización de flujos logísticos de exportación marítima bajo alta presión de SLAs contractuales con las mayores navieras y exportadoras de la macrozona sur.
               </p>
             </div>
 
-            <div class="bg-zinc-50 rounded-xl p-4 border border-zinc-100 space-y-2 text-xs text-zinc-700">
-              <div class="font-bold text-zinc-900 flex items-center gap-1.5">
-                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-600"></i>
-                Hitos & Métricas de Impacto:
+            <!-- Discovery ➔ Delivery Arc -->
+            <div class="space-y-3 pt-1">
+              <!-- Discovery Block -->
+              <div class="p-3.5 rounded-xl bg-zinc-50 border border-zinc-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-zinc-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="compass" class="w-3.5 h-3.5 text-zinc-500"></i>
+                  Discovery & Decisiones
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Problema Operacional:</strong> Tiempos muertos no visibilizados entre turnos de estiba y descoordinación patio-muelle con riesgo de penalizaciones (demurrage).</li>
+                  <li><strong class="text-zinc-900 font-semibold">Hipótesis de Proceso:</strong> Reemplazar planillas manuales por cuadros de mando en tiempo real para anticipar cuellos de botella antes de la ventana de zarpe.</li>
+                </ul>
               </div>
-              <ul class="list-disc list-inside space-y-1.5 text-zinc-600">
-                <li><strong class="text-zinc-900 font-semibold">Optimización de Lead Time:</strong> Reducción sistemática de tiempos muertos entre turnos de estiba y transferencias de carga.</li>
-                <li><strong class="text-zinc-900 font-semibold">Cumplimiento de SLAs 24/7:</strong> Administración de contratos y acuerdos de servicio con navieras internacionales y exportadoras.</li>
-                <li><strong class="text-zinc-900 font-semibold">Digitalización Operacional:</strong> Transición de planillas manuales a cuadros de mando y KPIs en tiempo real para visibilidad de carga.</li>
-              </ul>
+
+              <!-- Delivery & Impact Block -->
+              <div class="p-3.5 rounded-xl bg-amber-50/50 border border-amber-100 space-y-1.5 text-xs text-zinc-600">
+                <div class="font-mono font-bold text-[11px] text-amber-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="zap" class="w-3.5 h-3.5 text-amber-600"></i>
+                  Delivery & Impacto
+                </div>
+                <ul class="space-y-1">
+                  <li><strong class="text-zinc-900 font-semibold">Digitalización de Gestión:</strong> Despliegue de indicadores operacionales en tiempo real y protocolos de coordinación 24/7 entre patio, muelle y transporte.</li>
+                  <li><strong class="text-zinc-900 font-semibold">Métricas Clave:</strong> <strong>Optimización de Lead Time</strong> en transferencias de estiba; <strong>100% de cumplimiento en SLAs</strong> y ventanas operacionales con navieras.</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/04-svti-operations.md" target="_blank" rel="noopener" class="text-sm font-bold text-zinc-900 hover:text-amber-600 flex items-center gap-1.5 transition-colors">
+          <div class="pt-3 border-t border-zinc-100 flex items-center justify-between">
+            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/04-svti-operations.md" target="_blank" rel="noopener" class="text-xs sm:text-sm font-bold text-zinc-900 hover:text-amber-600 flex items-center gap-1.5 transition-colors">
               <span>Leer caso completo en GitHub</span>
               <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
             </a>
@@ -802,26 +862,13 @@
             </div>
             <h3 class="text-2xl font-bold text-white tracking-tight">Proyectos acotados</h3>
             <p class="text-sm text-zinc-300 leading-relaxed">
-              También tomo encargos puntuales, con alcance y precio cerrados:
+              Encargos puntuales con alcance y entregable cerrado: Discovery de producto sobre problemas difusos, redacción de PRDs técnicos ejecutables, o auditorías de gobernanza y backlog en unidades sin métricas previas.
             </p>
-            <ul class="space-y-2 text-xs sm:text-sm text-zinc-300">
-              <li class="flex items-start gap-2">
-                <span class="text-brand-400 font-bold">·</span>
-                <span>Discovery y definición de alcance sobre un problema todavía difuso</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <span class="text-brand-400 font-bold">·</span>
-                <span>PRD con criterios de aceptación y trazabilidad de decisiones</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <span class="text-brand-400 font-bold">·</span>
-                <span>Estimación y gobernanza por etapas (MVP → puesta en marcha → producción)</span>
-              </li>
-              <li class="flex items-start gap-2">
-                <span class="text-brand-400 font-bold">·</span>
-                <span>Auditoría de un backlog o de una unidad de producto sin métricas instaladas</span>
-              </li>
-            </ul>
+            <div class="flex flex-wrap gap-2 pt-1 text-xs text-zinc-400">
+              <span class="px-2.5 py-1 rounded-md bg-zinc-800/80 border border-zinc-700/60 text-zinc-300">Product Discovery</span>
+              <span class="px-2.5 py-1 rounded-md bg-zinc-800/80 border border-zinc-700/60 text-zinc-300">PRD & Criterios</span>
+              <span class="px-2.5 py-1 rounded-md bg-zinc-800/80 border border-zinc-700/60 text-zinc-300">Auditoría de Gobernanza</span>
+            </div>
           </div>
 
           <div class="pt-4 border-t border-zinc-800">
