@@ -21,7 +21,7 @@ Mi propuesta de valor une tres pilares:
 
 | **+30%** | **16.000** | **TRL 3 ➔ TRL 4** | **2.000+** |
 | :---: | :---: | :---: | :---: |
-| +30% en [[JP: completar — métrica exacta, ej. tiempo de resolución de tickets de soporte]] ([[JP: completar — período de medición]]) | Producto con 16.000 usuarios activos en terreno ([[JP: completar — ventana: MAU/DAU]]), minería | Maduración de motor de riesgo con IA (al [[JP: completar — mes/año]]) | 2.000+ descargas sobre base de [[JP: completar — universo instalado]] |
+| +30% en tiempo de resolución de tickets de soporte operacional (Mayo – Agosto 2026) | Producto con 16.000 usuarios activos mensuales en terreno (MAU), minería | Maduración de motor de riesgo con IA (Septiembre 2026) | 2.000+ descargas en nuevas features sobre base de 16.000 operadores |
 
 ---
 
@@ -38,13 +38,13 @@ graph TD
 ### [1. Nauvo — Motor de Inferencia para Evaluación de Riesgo en Startups](./cases/01-nauvo-risk-engine.md)
 * **Rol:** Product Manager & Co-Fundador (Agosto 2026 – Presente)
 * **Tipo:** 0 to 1 · B2B FinTech / Venture Capital · IA Simbólica & Agentes
-* **Resumen:** Desarrollo de un motor de inferencia determinista sobre grafos dirigidos acíclicos (DAG) para evaluar riesgo en startups en etapas tempranas. Definición de métricas de calidad para sistemas no deterministas, creación de prototipo funcional (TRL 4) y captación de 3 clientes piloto y 1 fondo de VC interesado (al [[JP: completar — mes/año]]).
+* **Resumen:** Desarrollo de un motor de inferencia determinista sobre grafos dirigidos acíclicos (DAG) para evaluar riesgo en startups en etapas tempranas. Definición de métricas de calidad para sistemas no deterministas, creación de prototipo funcional (TRL 4) y captación de 3 clientes piloto y 1 fondo de VC interesado (Septiembre 2026).
 * **[Ver Caso Completo ➔](./cases/01-nauvo-risk-engine.md)** | **[Ver Artefacto Técnico / Demo ➔](./artifacts/nauvo/)**
 
 ### [2. Gauss Control — Monitoreo de Personas y Riesgo Humano](./cases/02-gauss-control-monitoring.md)
 * **Rol:** Product Owner (Mayo 2026 – Agosto 2026)
 * **Tipo:** B2B SaaS Enterprise · Minería e Industria Pesada · IoT / Neurociencia
-* **Resumen:** Liderazgo funcional de célula ágil (Tech Lead, BA, Devs). Priorización de roadmap basado en causales de accidentabilidad. Producto con 16.000 usuarios activos en terreno ([[JP: completar — ventana: MAU/DAU]]), 2.000+ descargas sobre base de [[JP: completar — universo instalado]] y +30% en [[JP: completar — métrica exacta, ej. tiempo de resolución de tickets de soporte]] ([[JP: completar — período de medición]]).
+* **Resumen:** Liderazgo funcional de célula ágil (Tech Lead, BA, Devs). Priorización de roadmap basado en causales de accidentabilidad. Producto con 16.000 usuarios activos mensuales en terreno (MAU), 2.000+ descargas sobre base de 16.000 operadores y +30% en tiempo de resolución de tickets de soporte operacional (Mayo – Agosto 2026).
 * **[Ver Caso Completo ➔](./cases/02-gauss-control-monitoring.md)**
 
 ### [3. Distritos de Innovación y Plataforma Janus](./cases/03-janus-tech-transfer.md)

@@ -47,7 +47,7 @@ flowchart LR
 
 * **Maduración Tecnológica:** Llevé el producto de **TRL 3 (Prueba de concepto en laboratorio / tesis) a TRL 4 (Prototipo funcional validado en entorno de laboratorio/simulado)**.
 * **Interés de Mercado:**
-  * **3 clientes piloto potenciales** confirmados para pruebas beta (al [[JP: completar — mes/año]]).
-  * **1 fondo de Venture Capital** en conversaciones de integración (al [[JP: completar — mes/año]]).
+  * **3 clientes piloto potenciales** confirmados para pruebas beta (Septiembre 2026).
+  * **1 fondo de Venture Capital** en conversaciones de integración (Septiembre 2026).
   * Incorporación de un **Science Advisor** y dirección funcional de **2 memoristas** trabajando en componentes periféricos del modelo.
 * **Lección de Producto:** La clave de adopción en industrias financieras no es la complejidad algorítmica, sino la explicabilidad del razonamiento detrás de cada punto de riesgo.
