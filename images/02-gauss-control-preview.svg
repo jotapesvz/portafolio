@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="100%" style="background:#ffffff; font-family:'IBM Plex Sans', -apple-system, sans-serif;">
+  <defs>
+    <pattern id="grid-gauss" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#f4f4f5" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="460" fill="#fafafa"/>
+  <rect width="1200" height="460" fill="url(#grid-gauss)"/>
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="1200" height="38" fill="#f4f4f5" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="20" cy="19" r="4.5" fill="#d4d4d8"/>
+  <circle cx="36" cy="19" r="4.5" fill="#d4d4d8"/>
+  <circle cx="52" cy="19" r="4.5" fill="#d4d4d8"/>
+  
+  <!-- Address Bar -->
+  <rect x="80" y="8" width="460" height="22" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="96" y="23" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">gausscontrol.com / fleet-telemetry / caex-haul-trucks / shift-04</text>
+  <text x="1100" y="24" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a1a1aa">LIVE 24/7</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="38" width="220" height="422" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="24" y="74" font-family="'IBM Plex Sans', sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#09090b">GAUSS CONTROL</text>
+  <text x="24" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#a1a1aa" letter-spacing="0.5">HUMAN RISK SUITE</text>
+
+  <rect x="14" y="112" width="192" height="30" rx="4" fill="#e4e4e7"/>
+  <text x="28" y="132" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#09090b">01. Live Alertness Monitor</text>
+  <text x="28" y="168" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">02. Shift Scheduling 24/7</text>
+  <text x="28" y="202" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">03. Support Ticket Queue</text>
+  <text x="28" y="236" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">04. Field Edge Sync</text>
+  <text x="28" y="270" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">05. Biomarkers Data</text>
+
+  <rect x="14" y="360" width="192" height="80" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="26" y="382" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#09090b">ESCALA OPERACIONAL</text>
+  <text x="26" y="400" font-family="'IBM Plex Sans', sans-serif" font-size="16" font-weight="700" fill="#09090b">16.000 MAU</text>
+  <text x="26" y="416" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Resolución tickets: +30%</text>
+  <text x="26" y="428" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Adopción: 2.000+ descargas</text>
+
+  <!-- Main Viewport -->
+  <g transform="translate(244, 56)">
+    <text x="0" y="18" font-family="'IBM Plex Sans', sans-serif" font-size="15" font-weight="600" fill="#09090b">Telemetría de Alerta y Prevención de Somnolencia (Turnos Nocturnos)</text>
+    <text x="0" y="34" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">Monitoreo no invasivo de operadores de camiones CAEX · Human-in-the-Loop</text>
+
+    <rect x="790" y="4" width="140" height="26" rx="4" fill="#f4f4f5" stroke="#d4d4d8" stroke-width="1"/>
+    <text x="806" y="21" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#09090b">SLA 24/7 ACTIVO</text>
+  </g>
+
+  <!-- Telemetry Graph & Fleet Grid -->
+  <g transform="translate(244, 114)">
+    <rect x="0" y="0" width="932" height="326" rx="8" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+
+    <!-- Graph: Circadian Alertness Curve -->
+    <g transform="translate(24, 24)">
+      <rect x="0" y="0" width="560" height="210" rx="6" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+      <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#52525b">CURVA ESTIMADA DE ALERTA CIRCADIANA (TURNO 20:00 - 08:00)</text>
+      
+      <!-- Grid lines inside chart -->
+      <line x1="20" y1="50" x2="540" y2="50" stroke="#f4f4f5" stroke-width="1"/>
+      <line x1="20" y1="90" x2="540" y2="90" stroke="#f4f4f5" stroke-width="1"/>
+      <line x1="20" y1="130" x2="540" y2="130" stroke="#f4f4f5" stroke-width="1"/>
+      <line x1="20" y1="170" x2="540" y2="170" stroke="#f4f4f5" stroke-width="1"/>
+
+      <!-- Safe / Warning Threshold Line -->
+      <line x1="20" y1="140" x2="540" y2="140" stroke="#a1a1aa" stroke-width="1" stroke-dasharray="4,4"/>
+      <text x="440" y="136" font-family="'JetBrains Mono', monospace" font-size="8" fill="#71717a">UMBRAL CRÍTICO DE FATIGA</text>
+
+      <!-- Alertness curve path -->
+      <path d="M 20 60 C 100 65, 180 80, 240 110 C 290 135, 340 160, 390 155 C 440 150, 480 110, 540 95" fill="none" stroke="#09090b" stroke-width="2.5"/>
+
+      <!-- Critical Point indicator -->
+      <circle cx="390" cy="155" r="5" fill="#09090b"/>
+      <rect x="345" y="170" width="90" height="22" rx="3" fill="#09090b"/>
+      <text x="353" y="184" font-family="'JetBrains Mono', monospace" font-size="9" fill="#ffffff">03:45 AM ALERTA</text>
+
+      <!-- Time Axis -->
+      <text x="20" y="196" font-family="'JetBrains Mono', monospace" font-size="8" fill="#a1a1aa">20:00</text>
+      <text x="150" y="196" font-family="'JetBrains Mono', monospace" font-size="8" fill="#a1a1aa">23:00</text>
+      <text x="280" y="196" font-family="'JetBrains Mono', monospace" font-size="8" fill="#a1a1aa">02:00</text>
+      <text x="410" y="196" font-family="'JetBrains Mono', monospace" font-size="8" fill="#a1a1aa">05:00</text>
+      <text x="520" y="196" font-family="'JetBrains Mono', monospace" font-size="8" fill="#a1a1aa">08:00</text>
+    </g>
+
+    <!-- Side Fleet Operators Queue -->
+    <g transform="translate(604, 24)">
+      <rect x="0" y="0" width="304" height="210" rx="6" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+      <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#52525b">ESTADO DE FLOTA EN FAENA (CAEX)</text>
+
+      <!-- Operator 1 -->
+      <rect x="14" y="36" width="276" height="46" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+      <circle cx="28" cy="59" r="4" fill="#09090b"/>
+      <text x="42" y="54" font-family="'IBM Plex Sans', sans-serif" font-size="12" font-weight="600" fill="#09090b">Camión CAEX #402</text>
+      <text x="42" y="68" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Ruta Mina Rajo · Alerta: Normal (92%)</text>
+      <text x="220" y="62" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#09090b">OK</text>
+
+      <!-- Operator 2 (Alert) -->
+      <rect x="14" y="90" width="276" height="46" rx="4" fill="#f4f4f5" stroke="#09090b" stroke-width="1.5"/>
+      <circle cx="28" cy="113" r="4" fill="#09090b"/>
+      <text x="42" y="108" font-family="'IBM Plex Sans', sans-serif" font-size="12" font-weight="600" fill="#09090b">Camión CAEX #408</text>
+      <text x="42" y="122" font-family="'JetBrains Mono', monospace" font-size="9" fill="#09090b">Microsueño Detectado · Protocolo HITL</text>
+      <text x="210" y="116" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#09090b">PAUSA 15M</text>
+
+      <!-- Operator 3 -->
+      <rect x="14" y="144" width="276" height="46" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+      <circle cx="28" cy="167" r="4" fill="#09090b"/>
+      <text x="42" y="162" font-family="'IBM Plex Sans', sans-serif" font-size="12" font-weight="600" fill="#09090b">Camión CAEX #512</text>
+      <text x="42" y="176" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Ruta Botadero Sur · Alerta: 81%</text>
+      <text x="220" y="170" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#09090b">OK</text>
+    </g>
+
+    <!-- Bottom Telemetry Specs -->
+    <g transform="translate(24, 250)">
+      <rect x="0" y="0" width="884" height="56" rx="6" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+      <text x="20" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">ARQUITECTURA: <tspan fill="#09090b" font-weight="600">EDGE COMPUTING + IOT</tspan></text>
+      <text x="20" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">METODOLOGÍA: <tspan fill="#09090b" font-weight="600">HUMAN-IN-THE-LOOP (HITL)</tspan></text>
+      <text x="320" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">RESOLUCIÓN TICKETS: <tspan fill="#09090b" font-weight="600">+30% EFICIENCIA</tspan></text>
+      <text x="320" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">DISPONIBILIDAD: <tspan fill="#09090b" font-weight="600">SLA 24/7 SIN CAÍDAS</tspan></text>
+      <text x="640" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">BASE EN TERRENO: <tspan fill="#09090b" font-weight="600">16.000 OPERADORES</tspan></text>
+      <text x="640" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">ADOPCIÓN FEATURES: <tspan fill="#09090b" font-weight="600">2.000+ DESCARGAS</tspan></text>
+    </g>
+  </g>
+</svg>
