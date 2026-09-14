@@ -3,6 +3,10 @@
     <pattern id="grid-janus" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#f4f4f5" stroke-width="1"/>
     </pattern>
+    <linearGradient id="grad-janus-platform" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
   </defs>
 
   <rect width="1200" height="460" fill="#fafafa"/>
@@ -10,21 +14,22 @@
 
   <!-- Window Header -->
   <rect x="0" y="0" width="1200" height="38" fill="#f4f4f5" stroke="#e4e4e7" stroke-width="1"/>
-  <circle cx="20" cy="19" r="4.5" fill="#d4d4d8"/>
-  <circle cx="36" cy="19" r="4.5" fill="#d4d4d8"/>
-  <circle cx="52" cy="19" r="4.5" fill="#d4d4d8"/>
+  <circle cx="20" cy="19" r="4.5" fill="#ef4444" opacity="0.85"/>
+  <circle cx="36" cy="19" r="4.5" fill="#f59e0b" opacity="0.85"/>
+  <circle cx="52" cy="19" r="4.5" fill="#10b981" opacity="0.85"/>
   
   <rect x="80" y="8" width="460" height="22" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
   <text x="96" y="23" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">janus.biobio.cl / territorial-ecosystem / id3-cidla-masterplan</text>
-  <text x="1090" y="24" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a1a1aa">+MMUS$ 150</text>
+  <rect x="1060" y="8" width="122" height="22" rx="4" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+  <text x="1070" y="23" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#047857">VAL: +MMUS$ 150</text>
 
   <!-- Sidebar -->
   <rect x="0" y="38" width="220" height="422" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
   <text x="24" y="74" font-family="'IBM Plex Sans', sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#09090b">JANUS PLATFORM</text>
-  <text x="24" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#a1a1aa" letter-spacing="0.5">DISTRITOS DE INNOVACIÓN</text>
+  <text x="24" y="90" font-family="'JetBrains Mono', monospace" font-size="9" fill="#6366f1" font-weight="600" letter-spacing="0.5">● DISTRITO BIOCONCEPCIÓN</text>
 
-  <rect x="14" y="112" width="192" height="30" rx="4" fill="#e4e4e7"/>
-  <text x="28" y="132" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#09090b">01. Masterplan iD3 (6,5 Ha)</text>
+  <rect x="14" y="112" width="192" height="30" rx="4" fill="#e0e7ff" stroke="#c7d2fe" stroke-width="1"/>
+  <text x="28" y="132" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#3730a3">01. Masterplan iD3 (6,5 Ha)</text>
   <text x="28" y="168" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">02. Centro CIDLA (CMPC)</text>
   <text x="28" y="202" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">03. Centro Industria 4.0</text>
   <text x="28" y="236" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">04. Centro Ciencia Datos</text>
@@ -32,44 +37,49 @@
 
   <rect x="14" y="360" width="192" height="80" rx="6" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
   <text x="26" y="382" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#09090b">EVALUACIÓN ECONÓMICA</text>
-  <text x="26" y="400" font-family="'IBM Plex Sans', sans-serif" font-size="16" font-weight="700" fill="#09090b">USD 142M VAN</text>
-  <text x="26" y="416" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Tasa Interna: 14,3% TIR</text>
-  <text x="26" y="428" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Alianzas: UdeC + CMPC</text>
+  <text x="26" y="402" font-family="'IBM Plex Sans', sans-serif" font-size="17" font-weight="700" fill="#059669">USD 142M VAN</text>
+  <text x="26" y="418" font-family="'JetBrains Mono', monospace" font-size="9" fill="#0284c7" font-weight="600">Tasa Interna: 14,3% TIR</text>
+  <text x="26" y="430" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Alianzas: UdeC + CMPC</text>
 
   <!-- Main Viewport -->
   <g transform="translate(244, 56)">
     <text x="0" y="18" font-family="'IBM Plex Sans', sans-serif" font-size="15" font-weight="600" fill="#09090b">Ecosistema Territorial: Distrito Biobío (iD3) &amp; CIDLA Los Ángeles</text>
     <text x="0" y="34" font-family="'JetBrains Mono', monospace" font-size="11" fill="#71717a">Co-diseño metodológico Georgia Tech · Vinculación I+D por demanda industrial</text>
 
-    <rect x="790" y="4" width="140" height="26" rx="4" fill="#09090b"/>
-    <text x="806" y="21" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#ffffff">MASTERPLAN APROBADO</text>
+    <rect x="780" y="4" width="150" height="26" rx="4" fill="#059669"/>
+    <text x="794" y="21" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#ffffff">✓ MASTERPLAN APROBADO</text>
   </g>
 
   <!-- District Blueprint & Tech Transfer Matching Engine -->
   <g transform="translate(244, 114)">
     <rect x="0" y="0" width="932" height="326" rx="8" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
 
-    <!-- Blueprint: Territorial Zoning Diagram -->
+    <!-- Blueprint: Territorial Zoning Diagram (Color Coded Zones) -->
     <g transform="translate(24, 24)">
       <rect x="0" y="0" width="460" height="210" rx="6" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
       <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#52525b">ZONIFICACIÓN TERRITORIAL iD3 (6,5 HECTÁREAS)</text>
 
-      <!-- Masterplan Isometric Zones -->
-      <rect x="24" y="44" width="180" height="68" rx="4" fill="#ffffff" stroke="#09090b" stroke-width="1.5"/>
-      <text x="36" y="66" font-family="'IBM Plex Sans', sans-serif" font-size="11" font-weight="700" fill="#09090b">C4i: Industria 4.0</text>
-      <text x="36" y="82" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Piloteo de Manufactura Avanzada</text>
-      <text x="36" y="96" font-family="'JetBrains Mono', monospace" font-size="8" fill="#a1a1aa">Superficie: 2.200 m²</text>
+      <!-- Zone 1: C4i Industria 4.0 (Blue/Indigo Zone) -->
+      <rect x="24" y="44" width="190" height="68" rx="4" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+      <rect x="34" y="52" width="56" height="14" rx="2" fill="#dbeafe"/>
+      <text x="38" y="62" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#1e40af">SECTOR A</text>
+      <text x="34" y="78" font-family="'IBM Plex Sans', sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">C4i: Industria 4.0</text>
+      <text x="34" y="92" font-family="'JetBrains Mono', monospace" font-size="8" fill="#1e40af">Manufactura Avanzada (2.200 m²)</text>
 
-      <rect x="220" y="44" width="216" height="68" rx="4" fill="#ffffff" stroke="#09090b" stroke-width="1.5"/>
-      <text x="232" y="66" font-family="'IBM Plex Sans', sans-serif" font-size="11" font-weight="700" fill="#09090b">CDIA: Datos &amp; IA Aplicada</text>
-      <text x="232" y="82" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71717a">Modelamiento Matemático y GPU Hub</text>
-      <text x="232" y="96" font-family="'JetBrains Mono', monospace" font-size="8" fill="#a1a1aa">Superficie: 1.850 m²</text>
+      <!-- Zone 2: CDIA Datos & IA (Purple Zone) -->
+      <rect x="226" y="44" width="210" height="68" rx="4" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1.5"/>
+      <rect x="236" y="52" width="56" height="14" rx="2" fill="#f3e8ff"/>
+      <text x="240" y="62" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#6b21a8">SECTOR B</text>
+      <text x="236" y="78" font-family="'IBM Plex Sans', sans-serif" font-size="11" font-weight="700" fill="#581c87">CDIA: Datos &amp; IA Aplicada</text>
+      <text x="236" y="92" font-family="'JetBrains Mono', monospace" font-size="8" fill="#6b21a8">GPU Hub &amp; Math Modeling (1.850 m²)</text>
 
-      <!-- Lower zone -->
-      <rect x="24" y="124" width="412" height="70" rx="4" fill="#f4f4f5" stroke="#d4d4d8" stroke-width="1"/>
-      <text x="36" y="146" font-family="'IBM Plex Sans', sans-serif" font-size="11" font-weight="700" fill="#09090b">CIDLA Los Ángeles (Alianza UdeC + CMPC)</text>
-      <text x="36" y="162" font-family="'JetBrains Mono', monospace" font-size="9" fill="#52525b">Tecnologías de la Madera, Bioproductos y Sensórica Forestal</text>
-      <text x="36" y="176" font-family="'JetBrains Mono', monospace" font-size="8" fill="#71717a">Co-financiamiento y validación corporativa asegurada</text>
+      <!-- Zone 3: CIDLA Los Ángeles (Emerald Forest Tech Zone) -->
+      <rect x="24" y="124" width="412" height="70" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+      <rect x="34" y="132" width="76" height="14" rx="2" fill="#dcfce7"/>
+      <text x="38" y="142" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#15803d">ALIANZA CMPC</text>
+      <text x="34" y="158" font-family="'IBM Plex Sans', sans-serif" font-size="11" font-weight="700" fill="#14532d">CIDLA Los Ángeles (Campus UdeC + CMPC)</text>
+      <text x="34" y="172" font-family="'JetBrains Mono', monospace" font-size="9" fill="#15803d">Biomateriales, Celulosa de Precisión y Sensórica Forestal</text>
+      <text x="34" y="184" font-family="'JetBrains Mono', monospace" font-size="8" fill="#166534">Co-financiamiento y validación industrial asegurada</text>
     </g>
 
     <!-- Right: Janus Matching Engine Matrix -->
@@ -78,34 +88,40 @@
       <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#52525b">MOTOR DE EMPAREJAMIENTO (JANUS)</text>
 
       <!-- Demand Node -->
-      <rect x="16" y="44" width="372" height="42" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
-      <text x="28" y="62" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#09090b">DEMANDA CORPORATIVA</text>
-      <text x="28" y="74" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#52525b">Desafíos reales de celulosa, packaging y logística</text>
+      <rect x="16" y="44" width="372" height="42" rx="4" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.5"/>
+      <circle cx="28" cy="65" r="3.5" fill="#2563eb"/>
+      <text x="40" y="60" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#1e40af">DEMANDA INDUSTRIAL CORPORATIVA</text>
+      <text x="40" y="74" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#3b82f6">Desafíos reales de celulosa, packaging y logística</text>
 
-      <!-- Causal Link -->
-      <line x1="202" y1="86" x2="202" y2="108" stroke="#09090b" stroke-width="1.5"/>
+      <!-- Connecting Vector with Cyan Flow -->
+      <line x1="202" y1="86" x2="202" y2="108" stroke="#0ea5e9" stroke-width="2"/>
+      <polygon points="199,104 205,104 202,108" fill="#0ea5e9"/>
 
-      <!-- Platform Matching Engine -->
-      <rect x="16" y="108" width="372" height="42" rx="4" fill="#09090b"/>
-      <text x="28" y="126" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#ffffff">PLATAFORMA DIGITAL JANUS</text>
-      <text x="28" y="138" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#d4d4d8">Orquestación de I+D, contratos y trazabilidad de PI</text>
+      <!-- Platform Matching Engine (Deep Indigo Console) -->
+      <rect x="16" y="108" width="372" height="42" rx="4" fill="url(#grad-janus-platform)" stroke="#6366f1" stroke-width="1.5"/>
+      <text x="28" y="126" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#38bdf8">⚡ PLATAFORMA DIGITAL JANUS</text>
+      <text x="28" y="139" font-family="'IBM Plex Sans', sans-serif" font-size="10" fill="#c7d2fe">Orquestación de I+D, contratos y trazabilidad de PI</text>
 
-      <!-- Supply Node -->
-      <line x1="202" y1="150" x2="202" y2="166" stroke="#09090b" stroke-width="1.5"/>
-      <rect x="16" y="166" width="372" height="36" rx="4" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
-      <text x="28" y="184" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#09090b">CAPACIDAD CIENTÍFICA UdeC</text>
-      <text x="210" y="184" font-family="'JetBrains Mono', monospace" font-size="8" fill="#71717a">MATCH SCORE: 94.8%</text>
+      <!-- Supply Node with High Match Emerald Indicator -->
+      <line x1="202" y1="150" x2="202" y2="166" stroke="#10b981" stroke-width="2"/>
+      <polygon points="199,162 205,162 202,166" fill="#10b981"/>
+
+      <rect x="16" y="166" width="372" height="36" rx="4" fill="#ffffff" stroke="#a7f3d0" stroke-width="1.5"/>
+      <circle cx="28" cy="184" r="3.5" fill="#10b981"/>
+      <text x="40" y="184" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#09090b">CAPACIDAD CIENTÍFICA UdeC</text>
+      <rect x="250" y="171" width="130" height="22" rx="3" fill="#dcfce7"/>
+      <text x="258" y="186" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#15803d">● 94.8% MATCH</text>
     </g>
 
     <!-- Bottom Specs -->
     <g transform="translate(24, 250)">
       <rect x="0" y="0" width="884" height="56" rx="6" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
-      <text x="20" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">EVALUACIÓN: <tspan fill="#09090b" font-weight="600">VAN USD 142M · 14,3% TIR</tspan></text>
+      <text x="20" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">EVALUACIÓN: <tspan fill="#059669" font-weight="700">VAN USD 142M · 14,3% TIR</tspan></text>
       <text x="20" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">BENCHMARK: <tspan fill="#09090b" font-weight="600">TECH SQUARE ATLANTA (GEORGIA TECH)</tspan></text>
-      <text x="340" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">TERRENO: <tspan fill="#09090b" font-weight="600">6,5 HA COSTANERA HUALPÉN</tspan></text>
-      <text x="340" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">ALIANZA INDUSTRIAL: <tspan fill="#09090b" font-weight="600">UdeC + CMPC (CIDLA)</tspan></text>
-      <text x="640" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">SOFTWARE: <tspan fill="#09090b" font-weight="600">PLATAFORMA JANUS</tspan></text>
-      <text x="640" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">ESTADO: <tspan fill="#09090b" font-weight="600">MASTERPLAN APROBADO</tspan></text>
+      <text x="340" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">TERRENO: <tspan fill="#1e40af" font-weight="600">6,5 HA COSTANERA HUALPÉN</tspan></text>
+      <text x="340" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">ALIANZA INDUSTRIAL: <tspan fill="#15803d" font-weight="600">UdeC + CMPC (CIDLA)</tspan></text>
+      <text x="640" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">SOFTWARE: <tspan fill="#4338ca" font-weight="600">PLATAFORMA JANUS</tspan></text>
+      <text x="640" y="42" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71717a">ESTADO: <tspan fill="#059669" font-weight="600">MASTERPLAN APROBADO</tspan></text>
     </g>
   </g>
 </svg>
