@@ -62,7 +62,6 @@
       
       <nav class="hidden md:flex items-center gap-6 text-xs font-medium text-zinc-600">
         <a href="#casos" class="hover:text-zinc-950 transition-colors">Casos de Estudio</a>
-        <a href="#nauvo" class="hover:text-zinc-950 transition-colors">Nauvo Showcase</a>
         <a href="#principios" class="hover:text-zinc-950 transition-colors">Principios</a>
         <a href="#credenciales" class="hover:text-zinc-950 transition-colors">Formación</a>
         <a href="#contacto" class="hover:text-zinc-950 transition-colors">Contacto</a>
@@ -106,12 +105,8 @@
           <span>Ver Casos de Estudio</span>
           <i data-lucide="arrow-down" class="w-3.5 h-3.5"></i>
         </a>
-        <a href="#nauvo" class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white border border-zinc-200 text-zinc-800 text-xs font-medium hover:bg-zinc-50 hover:border-zinc-300 transition-colors">
-          <i data-lucide="cpu" class="w-3.5 h-3.5 text-zinc-500"></i>
-          <span>Showcase Nauvo (TRL 4)</span>
-        </a>
-        <a href="https://github.com/jotapesvz/portafolio" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-mono text-zinc-500 hover:text-zinc-900 transition-colors">
-          <i data-lucide="folder-git-2" class="w-3.5 h-3.5"></i>
+        <a href="https://github.com/jotapesvz/portafolio" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-md bg-white border border-zinc-200 text-zinc-800 text-xs font-medium hover:bg-zinc-50 hover:border-zinc-300 transition-colors">
+          <i data-lucide="folder-git-2" class="w-3.5 h-3.5 text-zinc-500"></i>
           <span>Repo en GitHub ↗</span>
         </a>
       </div>
@@ -213,8 +208,8 @@
                 <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
               </a>
               <span class="text-zinc-300">·</span>
-              <a href="#nauvo" class="text-zinc-600 hover:text-zinc-950 inline-flex items-center gap-1">
-                <span>Ver showcase y arquitectura ↓</span>
+              <a href="https://github.com/jotapesvz/portafolio/tree/main/artifacts/nauvo" target="_blank" rel="noopener" class="text-zinc-600 hover:text-zinc-950 inline-flex items-center gap-1">
+                <span>Ver motor en Python ↗</span>
               </a>
             </div>
             <span class="font-mono text-zinc-400 text-[11px]">Artifact: artifacts/nauvo/engine_demo.py</span>
@@ -411,61 +406,7 @@
       </div>
     </section>
 
-    <!-- Dedicated Product Showcase: Nauvo -->
-    <section id="nauvo" class="space-y-6">
-      <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-zinc-200 pb-4">
-        <div class="space-y-1">
-          <span class="text-xs font-mono text-zinc-400 uppercase tracking-wider">PRODUCT SHOWCASE // MOTOR DETERMINISTA</span>
-          <h2 class="text-xl sm:text-2xl font-bold text-zinc-950 tracking-tight">
-            Nauvo: Arquitectura del Motor y Vista del Producto
-          </h2>
-        </div>
-        <span class="text-xs font-mono text-zinc-500">TRL 4 · Validación Comercial (Sept 2026)</span>
-      </div>
-
-      <div class="bg-white rounded-xl border border-zinc-200 p-6 sm:p-8 space-y-6">
-        <div class="rounded-lg overflow-hidden border border-zinc-200/90 bg-zinc-100/40 shadow-xs">
-          <img src="images/01-nauvo-preview.svg" alt="Consola técnica e inferencia de Nauvo" class="w-full h-auto object-cover block" loading="lazy" />
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
-          <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5">
-            <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">01. Extracción Agéntica (LLM)</div>
-            <p class="text-zinc-700 leading-relaxed">
-              Modelos de lenguaje restringidos estrictamente a estructurar memorandos, datos contables y presentaciones, eliminando la generación de juicios arbitrarios o alucinaciones cualitativas.
-            </p>
-          </div>
-          <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5">
-            <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">02. Grafo Causal Determinista (DAG)</div>
-            <p class="text-zinc-700 leading-relaxed">
-              Propagación jerárquica de dependencias financieras y operacionales sobre un grafo acíclico estático, garantizando que el mismo conjunto de datos arroje siempre el mismo resultado reproducible.
-            </p>
-          </div>
-          <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5">
-            <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">03. Auditoría &amp; Trazabilidad de Riesgo</div>
-            <p class="text-zinc-700 leading-relaxed">
-              Desglose matemático auditable por macro-nodos (Equipo, Mercado, Runway) con detección automática de alertas de liquidez y trazabilidad causal para comités de inversión y Due Diligence.
-            </p>
-          </div>
-        </div>
-
-        <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-zinc-100 text-xs">
-          <div class="flex items-center gap-3">
-            <a href="https://github.com/jotapesvz/portafolio/blob/main/cases/01-nauvo-risk-engine.md" target="_blank" rel="noopener" class="font-medium text-zinc-900 hover:underline inline-flex items-center gap-1">
-              <span>Leer especificación técnica en GitHub</span>
-              <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
-            </a>
-            <span class="text-zinc-300">·</span>
-            <a href="https://github.com/jotapesvz/portafolio/tree/main/artifacts/nauvo" target="_blank" rel="noopener" class="text-zinc-600 hover:text-zinc-950 inline-flex items-center gap-1">
-              <span>Código abierto en Python (engine_demo.py) ↗</span>
-            </a>
-          </div>
-          <span class="font-mono text-zinc-400 text-[11px]">Prototipo TRL 4 · 3 Pilotos Activos</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Operating Principles: Practical, Honest, No Fluff -->
+<!-- Operating Principles: Practical, Honest, No Fluff -->
     <section id="principios" class="space-y-6">
       <div class="border-b border-zinc-200 pb-3 space-y-1">
         <span class="text-xs font-mono text-zinc-400 uppercase tracking-wider">CRITERIO // OPERATING CADENCE</span>
