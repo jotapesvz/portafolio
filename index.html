@@ -9,10 +9,10 @@
   <meta property="og:description" content="Decision Intelligence · B2B SaaS · Systems Engineering · Product Operations" />
   <meta property="og:type" content="website" />
   
-  <!-- Fonts: Inter for clean typography, JetBrains Mono for technical specs -->
+  <!-- Fonts: IBM Plex Sans for industrial engineering clarity, JetBrains Mono for technical specs -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -24,7 +24,7 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            sans: ['"IBM Plex Sans"', 'system-ui', '-apple-system', 'sans-serif'],
             mono: ['"JetBrains Mono"', 'monospace'],
           },
           colors: {
@@ -46,7 +46,7 @@
     body {
       background-color: #fafafa;
       color: #18181b;
-      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      letter-spacing: -0.01em;
     }
   </style>
 </head>
@@ -141,7 +141,7 @@
       </div>
     </section>
 
-    <!-- Case Studies: Technical Briefs / Living Specs -->
+    <!-- Case Studies: Symmetrical 2x2 Matrix / Living Specs -->
     <section id="casos" class="space-y-8">
       <div class="border-b border-zinc-200 pb-4 space-y-1">
         <span class="text-xs font-mono text-zinc-400 uppercase tracking-wider">DOCUMENTACIÓN // CASOS DE ESTUDIO</span>
@@ -149,7 +149,7 @@
           Problemas operacionales, trade-offs y sistemas construidos
         </h2>
         <p class="text-xs sm:text-sm text-zinc-500 max-w-2xl">
-          Estructura de especificación técnica: qué estaba roto, qué se decidió descartar deliberadamente, cómo se diseñó la solución y los resultados verificables en producción.
+          Estructura de especificación técnica simétrica: problema real en terreno, decisión de diseño, implementación y resultados verificables.
         </p>
       </div>
 
@@ -170,35 +170,34 @@
             <span class="text-xs font-mono text-zinc-400 shrink-0">Etapa: TRL 4 (Sept 2026)</span>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs sm:text-sm">
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">01. Problema & Restricción</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  La evaluación de startups en etapa temprana es cualitativa, lenta y propensa a sesgos cognitivos. Los intentos con LLMs generativos estándar producían justificaciones plausibles pero matemáticamente incoherentes en flujos de caja y unit economics.
-                </p>
-              </div>
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">02. Trade-off Arquitectónico</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Se descartó el uso de un modelo monolítico tipo "caja negra". Decisión: <strong class="text-zinc-900 font-medium">Compound AI System</strong> donde el cálculo de riesgo y las dependencias financieras operan sobre un Grafo Dirigido Acíclico (DAG) determinista. Los LLMs se restringen a extracción no estructurada de entidades.
-                </p>
-              </div>
+          <!-- Symmetrical 2x2 Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">01. Problema & Restricción</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Evaluación cualitativa y sesgada de startups pre-semilla. Los LLMs genéricos producían justificaciones plausibles pero matemáticamente incoherentes en flujos de caja y unit economics.
+              </p>
             </div>
 
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">03. Sistema Implementado</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Motor en Python con propagación jerárquica de pesos en 3 dimensiones (Equipo, Mercado, Tracción/Runway). Detección de cuellos de botella con alertas de liquidez y trazabilidad matemática auditable en cada veredicto.
-                </p>
-              </div>
-              <div class="p-3 rounded-lg bg-zinc-50 border border-zinc-200/80 space-y-1">
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">04. Resultado Fáctico</h4>
-                <p class="text-zinc-600 leading-relaxed text-xs">
-                  Evolución de tesis de Magíster (TRL 3) a motor funcional validado (TRL 4). 3 clientes piloto activos y 1 fondo de Venture Capital en validación comercial.
-                </p>
-              </div>
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">02. Decisión & Trade-off</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Descarte de modelos monolíticos de caja negra. Arquitectura <strong class="text-zinc-900 font-medium">Compound AI</strong>: inferencia sobre un Grafo Dirigido Acíclico (DAG) determinista, limitando los LLMs a extracción no estructurada de datos.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">03. Sistema Implementado</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Motor en Python con propagación jerárquica de pesos en 3 macro-nodos (Equipo, Mercado, Tracción/Runway). Detección automática de anomalías y trazabilidad matemática paso a paso en cada veredicto.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">04. Resultado Fáctico</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Evolución de tesis de Magíster (TRL 3) a motor funcional validado (TRL 4). 3 clientes piloto activos y 1 fondo de Venture Capital en validación comercial (Septiembre 2026).
+              </p>
             </div>
           </div>
 
@@ -232,35 +231,34 @@
             <span class="text-xs font-mono text-zinc-400 shrink-0">Escala: 16.000 MAU</span>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs sm:text-sm">
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">01. Problema & Restricción</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Falsos positivos en detección de somnolencia generaban rechazo de los operadores de camiones de extracción y sobrecargaban al equipo de soporte en turnos continuos 24/7 en faenas remotas.
-                </p>
-              </div>
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">02. Trade-off de Producto</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Priorizar la confiabilidad en terreno y la baja fricción de reporte (Human-in-the-Loop) por sobre modelos predictivos complejos pero difíciles de interpretar por supervisores en turnos de noche.
-                </p>
-              </div>
+          <!-- Symmetrical 2x2 Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">01. Problema & Restricción</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Falsos positivos en detección de somnolencia generaban rechazo en operadores de camiones de extracción y saturaban al equipo de soporte en turnos continuos 24/7 en faenas remotas.
+              </p>
             </div>
 
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">03. Sistema Implementado</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Liderazgo funcional de célula ágil multidisciplinaria (Tech Lead, BA, Devs). Refactorización de backlog para resolución de tickets críticos y ventanas de mantenimiento programadas sin corte operacional.
-                </p>
-              </div>
-              <div class="p-3 rounded-lg bg-zinc-50 border border-zinc-200/80 space-y-1">
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">04. Resultado Fáctico</h4>
-                <p class="text-zinc-600 leading-relaxed text-xs">
-                  +30% de reducción en tiempo de resolución de tickets de soporte operacional (Mayo – Agosto 2026). Plataforma operativa para 16.000 operadores activos mensuales en faenas de alta exigencia.
-                </p>
-              </div>
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">02. Decisión & Trade-off</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Priorizar la confiabilidad en terreno y la baja fricción de reporte (Human-in-the-Loop) por sobre modelos predictivos complejos pero difíciles de auditar por supervisores de faena.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">03. Sistema Implementado</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Liderazgo funcional de célula ágil multidisciplinaria (Tech Lead, BA, Devs). Refactorización de backlog para soporte operacional crítico y ventanas de mantenimiento sin corte de servicio.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">04. Resultado Fáctico</div>
+              <p class="text-zinc-700 leading-relaxed">
+                +30% de reducción en tiempo de resolución de tickets de soporte operacional (Mayo – Agosto 2026). Plataforma activa para 16.000 operadores mensuales en faenas de alta exigencia.
+              </p>
             </div>
           </div>
 
@@ -288,35 +286,34 @@
             <span class="text-xs font-mono text-zinc-400 shrink-0">Inversión: +MMUS$ 150</span>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs sm:text-sm">
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">01. Problema & Restricción</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Desacople sistemático entre la investigación universitaria y las necesidades tecnológicas de la industria pesada y forestal. Carencia de infraestructura compartida y modelos de gobernanza técnica.
-                </p>
-              </div>
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">02. Trade-off Metodológico</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Evitar portales genéricos de transferencia tecnológica. Diseño enfocado en demanda corporativa vinculada a laboratorios de testeo físico (Centro Industria 4.0 y Centro de Ciencia de Datos / IA).
-                </p>
-              </div>
+          <!-- Symmetrical 2x2 Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">01. Problema & Restricción</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Desacople crónico entre investigación científica universitaria y necesidades tecnológicas de la industria pesada y forestal. Carencia de infraestructura y modelos de gobernanza técnica.
+              </p>
             </div>
 
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">03. Sistema Formulado</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Co-diseño con Georgia Tech (Tech Square). Formulación técnica y económica del masterplan de 6,5 Ha en Hualpén (iD3), y modelamiento del centro CIDLA Los Ángeles en conjunto con CMPC.
-                </p>
-              </div>
-              <div class="p-3 rounded-lg bg-zinc-50 border border-zinc-200/80 space-y-1">
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">04. Resultado Fáctico</h4>
-                <p class="text-zinc-600 leading-relaxed text-xs">
-                  Evaluación económica validada (VAN USD 142M / 14,3% TIR). Aprobación de alianza institucional UdeC + CMPC (CIDLA) y masterplan territorial iD3 aprobado.
-                </p>
-              </div>
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">02. Decisión & Trade-off</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Rechazo de portales genéricos de transferencia. Enfoque en vinculación por demanda corporativa real, anclada en centros de testeo físico (Industria 4.0 y Ciencia de Datos / IA).
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">03. Sistema Formulado</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Co-diseño con Georgia Tech (Tech Square). Formulación técnica y económica del masterplan de 6,5 Ha en Hualpén (iD3) y modelamiento de negocio del centro CIDLA Los Ángeles junto a CMPC.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">04. Resultado Fáctico</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Evaluación económica validada (VAN USD 142M / 14,3% TIR). Aprobación de alianza institucional UdeC + CMPC (CIDLA) y masterplan territorial iD3 aprobado.
+              </p>
             </div>
           </div>
 
@@ -351,35 +348,34 @@
             <span class="text-xs font-mono text-zinc-400 shrink-0">Operación: 24/7 Continuo</span>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs sm:text-sm">
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">01. Problema & Restricción</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Tiempos muertos no detectados en transferencias patio-muelle generaban riesgos críticos de demoras contractuales (<em>demurrage</em>) y pérdida de ventanas de zarpe con navieras internacionales.
-                </p>
-              </div>
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">02. Decisión de Operación</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Sustitución de reportes estáticos por tableros de control en tiempo real operados en muelle, desacoplando dependencias entre cuadrillas de estiba y transporte terrestre.
-                </p>
-              </div>
+          <!-- Symmetrical 2x2 Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">01. Problema & Restricción</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Tiempos muertos no detectados en transferencias patio-muelle generaban riesgos críticos de demoras contractuales (<em>demurrage</em>) y pérdida de ventanas de zarpe con navieras internacionales.
+              </p>
             </div>
 
-            <div class="space-y-3">
-              <div>
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">03. Sistema Implementado</h4>
-                <p class="text-zinc-600 mt-1 leading-relaxed">
-                  Flujo de observabilidad operativa con actualización de estado en tiempo real. Protocolos de sincronización entre acopio, muelles y grúas para anticipar cuellos de botella de estiba.
-                </p>
-              </div>
-              <div class="p-3 rounded-lg bg-zinc-50 border border-zinc-200/80 space-y-1">
-                <h4 class="font-mono text-xs font-semibold text-zinc-900 uppercase tracking-wider">04. Resultado Fáctico</h4>
-                <p class="text-zinc-600 leading-relaxed text-xs">
-                  100% de cumplimiento en ventanas de zarpe y SLAs contractuales bajo turnos continuos de alta presión logística. Reducción medible en tiempos muertos de transferencia.
-                </p>
-              </div>
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">02. Decisión & Trade-off</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Sustitución de reportes estáticos por tableros de control en tiempo real operados en muelle, desacoplando dependencias entre cuadrillas de estiba y transporte terrestre.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">03. Sistema Implementado</div>
+              <p class="text-zinc-700 leading-relaxed">
+                Flujo de observabilidad operativa con actualización de estado en tiempo real. Protocolos de sincronización entre acopio, muelles y grúas para anticipar cuellos de botella de estiba.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-zinc-50/70 border border-zinc-200/80 space-y-1.5 flex flex-col justify-start">
+              <div class="font-mono text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">04. Resultado Fáctico</div>
+              <p class="text-zinc-700 leading-relaxed">
+                100% de cumplimiento en ventanas de zarpe y SLAs contractuales bajo turnos continuos de alta presión logística. Reducción medible en tiempos muertos de transferencia.
+              </p>
             </div>
           </div>
 
@@ -792,4 +788,4 @@
     calculateDAG();
   </script>
 </body>
-</html>
+</html>\n
