@@ -106,7 +106,7 @@
     <!-- Right KPI Cards -->
     <g transform="translate(604, 24)">
       <rect x="0" y="0" width="304" height="210" rx="6" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
-      <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#52525b">OBSERVABILIDAD CONTRACTUAL</text>
+      <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#52525b">GESTIÓN OPERATIVA DE TURNO</text>
 
       <!-- KPI 1: 100% On-Time (Emerald) -->
       <rect x="14" y="38" width="276" height="48" rx="4" fill="#f0fdf4" stroke="#a7f3d0" stroke-width="1.5"/>

@@ -2,7 +2,7 @@
 
 * **Rol:** Product Manager & Estratega de Ecosistemas de Innovación
 * **Período:** Enero 2022 – Mayo 2026
-* **Tipo:** DeepTech Ecosystem Platform · Investor Decks & Financial Modeling · Transferencia Tecnológica
+* **Tipo:** Plataforma de Ecosistema · Investor Decks & Financial Modeling · Transferencia Tecnológica
 * **Organización:** Vicerrectoría de Investigación y Desarrollo (VRID), Universidad de Concepción
 * **Partners Estratégicos:** CMPC, Gobierno Regional del Biobío (FIC-R), Georgia Institute of Technology (Tech Square, Atlanta)
 
